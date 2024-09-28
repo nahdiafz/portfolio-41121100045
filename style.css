@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #FAFAFA;
+    color: #333;
+}
+
+header {
+    background-color: #363845;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+.description {
+    margin-top: 1rem;
+    font-size: 1rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#projects {
+    margin: 2rem auto;
+    padding: 1rem;
+    max-width: 1200px;
+}
+
+#projects h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #363845;
+}
+
+.project {
+    background: white;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project-content {
+    display: flex;
+    align-items: center;
+}
+
+.project img {
+    max-width: 200px;
+    max-height: 200px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 1rem;
+}
+
+.project-text {
+    flex: 1;
+}
+
+.project h3,
+.project p {
+    margin: 0;
+    text-align: left;
+}
+
+.project a {
+    text-decoration: none;
+    color: #D19C98;
+    font-weight: bold;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #D19C98;
+    color: white;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin-bottom: 0.5rem;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer i {
+    margin-right: 5px;
+}
+
+.loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FAFAFA; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem; 
+    color: #363845; 
+    z-index: 9999; 
+}
